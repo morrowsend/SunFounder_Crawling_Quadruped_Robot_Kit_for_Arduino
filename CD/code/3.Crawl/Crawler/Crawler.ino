@@ -33,8 +33,8 @@
 //#define ADJUST	//uncomment only this to adjust the servos 
 //#define VERIFY	//uncomment only this to verify the adjustment
 const float adjust_site[3] = { 100, 80, 42 };
-const float real_site[4][3] = { { 100, 80, 42 }, { 100, 80, 42 },
-                                { 100, 80, 42 }, { 100, 80, 42 } };
+const float real_site[4][3] = { { 100, 90, 66 }, { 110, 80, 43 },
+                                { 110, 65, 0 }, { 100, 90, 0 } };
 /* Servos --------------------------------------------------------------------*/
 //define 12 servos for 4 legs
 Servo servo[4][3];
